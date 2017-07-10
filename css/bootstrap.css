@@ -6781,6 +6781,12 @@ button.close {
     max-height: 100%;
 }
 
+.div-square215px  p {
+    display: block;
+    width: auto;
+    max-height: 100%;
+}
+
 .div-square215px img {
     display: block;
     margin: auto;
