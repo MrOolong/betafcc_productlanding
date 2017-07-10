@@ -6789,10 +6789,17 @@ button.close {
 
 .div-square215px img {
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .divborder {
   border:1px solid black;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
 }
 /*# sourceMappingURL=bootstrap.css.map */
