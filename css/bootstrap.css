@@ -1582,6 +1582,7 @@ pre code {
   overflow-y: scroll;
 }
 .container {
+  text-align: left;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -6764,8 +6765,8 @@ button.close {
 }
 
 .div-square215px {
-  width: 215px;
-  height: 215px;
+  width: 200px;
+  height: 200px;
   margin: 5px;
 }
 
@@ -6795,11 +6796,27 @@ button.close {
 
 .divborder {
   border:1px solid black;
+  width: auto;
+  margin: auto;
 }
 
 @media only screen and (max-width: 500px) {
     body {
         background-color: lightblue;
     }
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 /*# sourceMappingURL=bootstrap.css.map */
