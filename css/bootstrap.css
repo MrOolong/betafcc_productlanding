@@ -6785,4 +6785,8 @@ button.close {
     display: block;
     margin: auto;
 }
+
+.divborder {
+  border:1px solid black;
+}
 /*# sourceMappingURL=bootstrap.css.map */
