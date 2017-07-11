@@ -1,99 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Dennis Daubney betafreecodecamp Product Landing Page</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Dennis Daubney betafreecodecamp Product Landing Page</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<script src="js/bootstrap.js">
+	<script src="js/bootstrap.js" type="text/javascript">
 	</script>
 </head>
-
 <body>
-    <div id="master" class="container-fluid">
-        <header id="header" class="container">
-            <div class="container-fluid">
-                <nav id="nav-bar" class="navbar navbar-inverse navbar-fixed-top">
-                    <!--<div class="navbar navbar-inverse navbar-fixed-top">-->
-                        
-                        <div class="container-fluid">
-                        
-                            <a href="#" class="navbar-brand"><strong>Zara Spook</strong></a>
-                            
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navHeaderCollapse" aria-expanded="false">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            
-                            <div id="navHeaderCollapse" class="collapse navbar-collapse navHeaderCollapse">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a href="#" class="nav-link">Home</a></li>
-                                    <li class=""><a href="#products" class="nav-link">Products</a></li>
-                                    <li><a href="#video" class="nav-link">Video</a></li>
-                                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>    
-                    <!--</div>-->    
-                </nav>
-            </div>    
-        </header>
-    
-        <br><br><br>
-        <div id="main-content" class="container"> 
-            <section>
-                <article>
-                    <div id="zaraspook_intro">
-                        <div align="center"><h2><span><strong>Zara Spook</strong> - catchin' big bass all day!</span></h2></div>
-                        <div><p class=""><blockquote>The legendary Zara Spook lure by Heddon Lures is known as "the best top water lure ever made" and "simply the most fun and effective top water lure made today". For a lure that's 75 years old, it's still as effective as ever. The birth of the Zara Spook also gave birth to one of the most tempting top-water lure presentations known as "walking the dog".</blockquote></p></div>
-                    </div>
-                </article>
-            </section><hr><br>
-            
-            <section id="products" class="text-center">
-                <table align="center">
-                    <tr>
-                        <td><h4><strong>Zara Spook</strong></h4></td>
-                        <td><h4><strong>Zara Puppy</h4></strong></td>
-                        <td><h4><strong>Torpedo Magnum</h4></strong></td>
-                    </tr>
-                    <tr>
-                        <td class="div-square215px tdmod"><img class="img-responsive text-center" src="images/zara_spook_frog.png" alt="a picture of Zara Spook in frog pattern"></td>
-                        <td class="div-square215px tdmod"><img class="img-responsive text-center" src="images/zarapuppy.png" alt="a picture of the smaller Zara Puppy model"></td>
-                        <td class="div-square215px tdmod"><img class="img-responsive text-center" src="images/magnumtorpedo.png" alt="a picture of the Zara Magnum Torpedo"></td>
-                    </tr>
-                    <tr>
-                        <td>When old faithful is all you need</td>
-                        <td>When they aren't so hungry</td>
-                        <td>When you bring that noise</td>
-                    </tr>
-                </table>
-            </section><br><hr><br>
-            
-            <section id="video" class="text-center">
-            <h4>Real Results - Mexican Largemouth</h4>
-            <div class="videoWrapper text-center">
-                
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/grKQ_9_Acyk" frameborder="0" allowfullscreen></iframe>
-            </div><br>
-        </section><br><br>  
-            
-            <div id="contact" class="text-center">
-                <form method="get" action="https://www.freecodecamp.com/email-submit">
-                    <label for="signup">Sign up for Zara Spook fishing tips today</label>
-                    <input id="signup" type="email" name="email-signup" placeholder="email@domain.com"/>
-                    <input type="submit" value="Submit"/>
-                </form>
-            </div>
-        <br><br><br>
-    
-        <footer id="footer" class="container">
-            <div class="container">
-			    <p class="text-center">Copyright Dennis Daubney 2017</p>
-		    </div>
-        </footer>
-    </div>
+	<div class="container-fluid" id="master">
+		<header class="container-fluid" id="header">
+			<!-- navbar -->
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button class="navbar-toggle collapsed" data-target="#navbar-collapse-3" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Zara Spook</a>
+					</div><!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="navbar-collapse-3">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#products">Products</a>
+							</li>
+							<li>
+								<a href="#video">Video</a>
+							</li>
+							<li>
+								<a href="#contact">Contact</a>
+							</li>
+						</ul><!--<div class="collapse nav navbar-nav nav-collapse" id="nav-collapse3">
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search" />
+              </div>
+              <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+            </form>
+          </div>-->
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container -->
+			</nav><!-- /.navbar -->
+		</header><br>
+		<br>
+		<br>
+		<div class="container-fluid" id="main-content">
+			<section>
+				<article>
+					<div id="zaraspook_intro">
+						<div>
+							<h2><span><strong>Zara Spook</strong> - catchin' big bass all day!</span></h2>
+						</div>
+						<div>
+							<p class=""></p>
+							<blockquote>
+								The legendary Zara Spook lure by Heddon Lures is known as "the best top water lure ever made" and "simply the most fun and effective top water lure made today". For a lure that's 75 years old, it's still as effective as ever. The birth of the Zara Spook also gave birth to one of the most tempting top-water lure presentations known as "walking the dog".
+							</blockquote>
+							<p></p>
+						</div>
+					</div>
+				</article>
+			</section>
+			<hr>
+			<br>
+			<section class="text-center" id="products">
+				<table align="center">
+					<tr>
+						<td>
+							<h4><strong>Zara Spook</strong></h4>
+						</td>
+						<td>
+							<h4><strong>Zara Puppy</strong></h4>
+						</td>
+						<td>
+							<h4><strong>Torpedo Magnum</strong></h4>
+						</td>
+					</tr>
+					<tr>
+						<td class="div-square215px tdmod"><img alt="a picture of Zara Spook in frog pattern" class="img-responsive text-center" src="images/zara_spook_frog.png"></td>
+						<td class="div-square215px tdmod"><img alt="a picture of the smaller Zara Puppy model" class="img-responsive text-center" src="images/zarapuppy.png"></td>
+						<td class="div-square215px tdmod"><img alt="a picture of the Zara Magnum Torpedo" class="img-responsive text-center" src="images/magnumtorpedo.png"></td>
+					</tr>
+					<tr>
+						<td>When old faithful is all you need</td>
+						<td>When they aren't so hungry</td>
+						<td>When you bring that noise</td>
+					</tr>
+				</table>
+			</section><br>
+			<hr>
+			<br>
+			<section class="text-center container-fluid" id="video">
+				<h4>Real Results - Mexican Largemouth</h4>
+				<div class="videoWrapper text-center">
+					<iframe allowfullscreen frameborder="0" height="315" src="https://www.youtube.com/embed/grKQ_9_Acyk" width="560"></iframe>
+				</div><br>
+			</section><br>
+			<br>
+			<div class="text-center" id="contact">
+				<form action="https://www.freecodecamp.com/email-submit" method="get">
+					<label for="signup">Contact us now! Get Zara Spook fishing tips in your inbox today!</label> <input id="signup" name="email-signup" placeholder="email@domain.com" type="email"> <input type="submit" value="Submit">
+				</form>
+			</div><br>
+			<br>
+			<br>
+			<footer class="container" id="footer">
+				<div class="container">
+					<p class="text-center">Copyright Dennis Daubney 2017</p>
+				</div>
+			</footer>
+		</div>
+	</div>
 </body>
 </html>
