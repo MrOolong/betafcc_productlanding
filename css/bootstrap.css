@@ -6765,10 +6765,18 @@ button.close {
 }
 
 .div-square215px {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   margin: 5px;
 }
+
+.tdmod {
+  padding: 10px;
+  text-align: left;
+  font-size: 1.2vw;
+  /*text-justify: inter-word;*/
+}
+
 
 .clearfix::after {
     content: "";
